@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Maven.RunBuild">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+</keymap>

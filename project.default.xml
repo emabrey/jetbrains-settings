@@ -1,0 +1,444 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AndroidGradleBuildConfiguration">
+        <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+      </component>
+      <component name="CheckStyle-IDEA">
+        <option name="configuration">
+          <map>
+            <entry key="checkstyle-version" value="8.1" />
+            <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+            <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+            <entry key="scan-before-checkin" value="false" />
+            <entry key="scanscope" value="JavaOnlyWithTests" />
+            <entry key="suppress-errors" value="false" />
+          </map>
+        </option>
+      </component>
+      <component name="CommitMessageInspectionProfile">
+        <profile version="1.0">
+          <inspection_tool class="BodyLimit" enabled="true" level="TYPO" enabled_by_default="true" />
+          <inspection_tool class="SubjectBodySeparation" enabled="true" level="TYPO" enabled_by_default="true" />
+          <inspection_tool class="SubjectLimit" enabled="true" level="TYPO" enabled_by_default="true">
+            <option name="RIGHT_MARGIN" value="50" />
+          </inspection_tool>
+        </profile>
+      </component>
+      <component name="CompilerConfiguration">
+        <option name="BUILD_PROCESS_HEAP_SIZE" value="768" />
+        <annotationProcessing>
+          <profile default="true" name="Default" enabled="true" />
+        </annotationProcessing>
+        <bytecodeTargetLevel target="1.8" />
+      </component>
+      <component name="CompilerWorkspaceConfiguration">
+        <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+        <option name="PARALLEL_COMPILATION" value="true" />
+      </component>
+      <component name="CopyrightManager">
+        <copyright>
+          <option name="keyword" value="/((copyright)+?|(©)+?|(\(c\))+?)/ig" />
+          <option name="notice" value="/*&#10; * Copyright © &amp;#36;today.year Emily Mabrey&#10; * &#10; * The above copyright notice shall be included in all copies or substantial portions of the&#10; * Software.&#10; * &#10; * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#10; * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#10; * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL&#10; * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#10; * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING&#10; * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER &#10; * DEALINGS IN THE SOFTWARE.&#10; */" />
+          <option name="myName" value="Personal Copyright Without Warranty" />
+        </copyright>
+        <LanguageOptions name="HTML">
+          <option name="prefixLines" value="false" />
+        </LanguageOptions>
+        <LanguageOptions name="XML">
+          <option name="prefixLines" value="false" />
+        </LanguageOptions>
+        <LanguageOptions name="__TEMPLATE__">
+          <option name="separateBefore" value="true" />
+          <option name="separateAfter" value="true" />
+          <option name="lenBefore" value="100" />
+          <option name="lenAfter" value="100" />
+          <option name="box" value="true" />
+        </LanguageOptions>
+      </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="Git.Settings">
+        <option name="UPDATE_TYPE" value="MERGE" />
+        <option name="PUSH_AUTO_UPDATE" value="true" />
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+        <option name="FORCE_PUSH_ALLOWED" value="false" />
+      </component>
+      <component name="GroovyCompilerProjectConfiguration">
+        <option name="invokeDynamic" value="true" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="LoggerInitializedWithForeignClass" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
+            <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
+          </inspection_tool>
+        </profile>
+        <option name="projectProfile" value="Emily (Custom)" />
+        <option name="useProjectProfile" value="false" />
+        <option name="PROJECT_PROFILE" value="Emily (Custom)" />
+        <option name="USE_PROJECT_PROFILE" value="false" />
+        <version value="1.0" />
+        <info color="99cdd">
+          <option name="ERROR_STRIPE_COLOR" value="99cdd" />
+          <option name="myName" value="Info" />
+          <option name="myVal" value="50" />
+          <option name="myExternalName" value="Info" />
+          <option name="myDefaultAttributes">
+            <option name="ERROR_STRIPE_COLOR" value="99cdd" />
+          </option>
+        </info>
+        <list size="9">
+          <item index="0" class="java.lang.String" itemvalue="Info" />
+          <item index="1" class="java.lang.String" itemvalue="INFORMATION" />
+          <item index="2" class="java.lang.String" itemvalue="UNUSED ENTRY" />
+          <item index="3" class="java.lang.String" itemvalue="TYPO" />
+          <item index="4" class="java.lang.String" itemvalue="SERVER PROBLEM" />
+          <item index="5" class="java.lang.String" itemvalue="WEAK WARNING" />
+          <item index="6" class="java.lang.String" itemvalue="INFO" />
+          <item index="7" class="java.lang.String" itemvalue="WARNING" />
+          <item index="8" class="java.lang.String" itemvalue="ERROR" />
+        </list>
+      </component>
+      <component name="JSHintConfiguration" version="2.9.4" use-config-file="false">
+        <option asi="false" />
+        <option bitwise="true" />
+        <option boss="false" />
+        <option browser="true" />
+        <option browserify="false" />
+        <option camelcase="true" />
+        <option couch="false" />
+        <option curly="true" />
+        <option debug="false" />
+        <option devel="true" />
+        <option dojo="false" />
+        <option elision="false" />
+        <option enforceall="false" />
+        <option eqeqeq="true" />
+        <option eqnull="false" />
+        <option es3="false" />
+        <option es5="true" />
+        <option esnext="false" />
+        <option esversion="5" />
+        <option evil="false" />
+        <option expr="false" />
+        <option forin="true" />
+        <option freeze="true" />
+        <option funcscope="false" />
+        <option futurehostile="true" />
+        <option gcl="false" />
+        <option globalstrict="false" />
+        <option immed="false" />
+        <option iterator="false" />
+        <option jasmine="false" />
+        <option jquery="false" />
+        <option lastsemic="false" />
+        <option latedef="false" />
+        <option laxbreak="false" />
+        <option laxcomma="false" />
+        <option loopfunc="false" />
+        <option maxerr="50" />
+        <option mocha="false" />
+        <option module="false" />
+        <option mootools="false" />
+        <option moz="false" />
+        <option multistr="false" />
+        <option newcap="false" />
+        <option noarg="true" />
+        <option nocomma="true" />
+        <option node="true" />
+        <option noempty="true" />
+        <option nomen="false" />
+        <option nonbsp="true" />
+        <option nonew="true" />
+        <option nonstandard="false" />
+        <option notypeof="false" />
+        <option noyield="false" />
+        <option onevar="false" />
+        <option passfail="false" />
+        <option phantom="false" />
+        <option plusplus="false" />
+        <option proto="false" />
+        <option prototypejs="false" />
+        <option qunit="false" />
+        <option quotmark="false" />
+        <option rhino="false" />
+        <option scripturl="false" />
+        <option shadow="false" />
+        <option shelljs="false" />
+        <option singleGroups="false" />
+        <option smarttabs="false" />
+        <option strict="true" />
+        <option sub="false" />
+        <option supernew="false" />
+        <option trailing="true" />
+        <option typed="false" />
+        <option undef="true" />
+        <option unused="strict" />
+        <option validthis="false" />
+        <option varstmt="false" />
+        <option white="false" />
+        <option withstmt="false" />
+        <option worker="false" />
+        <option wsh="false" />
+        <option yui="false" />
+      </component>
+      <component name="JavaScriptSettings">
+        <option name="languageLevel" value="ES6" />
+      </component>
+      <component name="JsBowerSettings">
+        <exe-path>$USER_HOME$/AppData/Roaming/npm/bower.cmd</exe-path>
+        <config-path />
+      </component>
+      <component name="JsFlowSettings">
+        <service-enabled>false</service-enabled>
+        <exe-path />
+        <annotation-enable>false</annotation-enable>
+        <other-services-enabled>false</other-services-enabled>
+        <auto-save>true</auto-save>
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="true" />
+            <option name="checksumPolicy" value="FAIL" />
+            <option name="failureBehavior" value="FAST" />
+            <option name="mavenHome" value="$DEV_FOLDER$/Tools/apache-maven-3.5.0" />
+            <option name="threads" value="2.0C" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="createModuleGroups" value="true" />
+            <option name="downloadDocsAutomatically" value="true" />
+            <option name="downloadSourcesAutomatically" value="true" />
+            <option name="importAutomatically" value="true" />
+          </MavenImportingSettings>
+        </option>
+      </component>
+      <component name="MavenRunner">
+        <option name="jreName" value="#JAVA_INTERNAL" />
+      </component>
+      <component name="Osmorc">
+        <option name="bundlesOutputPath" value="C:\Users\emily\AppData\Local\Temp" />
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="emily" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Action Cable</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectResources">
+        <xml-schema-version>XMLSchema_1_1</xml-schema-version>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+        <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/stylelint" />
+        <property name="JavaScriptPreferStrict" value="true" />
+        <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+        <property name="js.eslint.eslintPackage" value="" />
+        <property name="js-tslint-nodeInterpreter" value="C:\Users\emily\DevKit\symlinks\NODEJS_HOME\node.exe" />
+        <property name="js-tslint-package" value="C:\Users\emily\AppData\Roaming\npm\node_modules\tslint" />
+        <property name="LombokPluginEnabledInProject" value="true" />
+        <property name="LombokPluginIS_VAL_Enabled" value="true" />
+        <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+        <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+        <property name="LombokPluginIS_LOG_Enabled" value="true" />
+        <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+        <property name="LombokPluginIS_THIRD_PARTY_Enabled" value="false" />
+        <property name="LombokPluginIS_RUNTIME_PATCH_Enabled" value="false" />
+        <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+        <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="false" />
+        <property name="javascript.nodejs.core.library.configured.version" value="7.3.0" />
+        <property name="nodejs_interpreter_path" value="$USER_HOME$/DevKit/symlinks/NODEJS_HOME/node" />
+        <property name="stylesheet.stylelint.nodeInterpreter" value="project" />
+        <property name="stylesheet.stylelint.stylelintPackage" value="$USER_HOME$/AppData/Roaming/npm/node_modules/stylelint" />
+        <property name="node.js.path.for.package.stylelint" value="project" />
+        <property name="node.js.selected.package.stylelint" value="" />
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="Applet" factoryName="Applet">
+          <option name="WIDTH" value="400" />
+          <option name="HEIGHT" value="300" />
+          <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+          <module />
+          <method />
+        </configuration>
+        <configuration default="true" type="Application" factoryName="Application">
+          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+          <option name="MAIN_CLASS_NAME" />
+          <option name="VM_PARAMETERS" />
+          <option name="PROGRAM_PARAMETERS" />
+          <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+          <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+          <option name="ALTERNATIVE_JRE_PATH" />
+          <option name="ENABLE_SWING_INSPECTOR" value="false" />
+          <option name="ENV_VARIABLES" />
+          <option name="PASS_PARENT_ENVS" value="true" />
+          <module name="" />
+          <envs />
+          <method />
+        </configuration>
+        <configuration default="true" type="JUnit" factoryName="JUnit">
+          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+          <module name="" />
+          <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+          <option name="ALTERNATIVE_JRE_PATH" />
+          <option name="PACKAGE_NAME" />
+          <option name="MAIN_CLASS_NAME" />
+          <option name="METHOD_NAME" />
+          <option name="TEST_OBJECT" value="class" />
+          <option name="VM_PARAMETERS" value="-ea" />
+          <option name="PARAMETERS" />
+          <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+          <option name="ENV_VARIABLES" />
+          <option name="PASS_PARENT_ENVS" value="true" />
+          <option name="TEST_SEARCH_SCOPE">
+            <value defaultName="singleModule" />
+          </option>
+          <envs />
+          <patterns />
+          <method />
+        </configuration>
+        <configuration default="true" type="Remote" factoryName="Remote">
+          <option name="USE_SOCKET_TRANSPORT" value="true" />
+          <option name="SERVER_MODE" value="false" />
+          <option name="SHMEM_ADDRESS" value="javadebug" />
+          <option name="HOST" value="localhost" />
+          <option name="PORT" value="5005" />
+          <method />
+        </configuration>
+        <configuration default="true" type="TestNG" factoryName="TestNG">
+          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+          <module name="" />
+          <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+          <option name="ALTERNATIVE_JRE_PATH" />
+          <option name="SUITE_NAME" />
+          <option name="PACKAGE_NAME" />
+          <option name="MAIN_CLASS_NAME" />
+          <option name="METHOD_NAME" />
+          <option name="GROUP_NAME" />
+          <option name="TEST_OBJECT" value="CLASS" />
+          <option name="VM_PARAMETERS" value="-ea" />
+          <option name="PARAMETERS" />
+          <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+          <option name="OUTPUT_DIRECTORY" />
+          <option name="ANNOTATION_TYPE" />
+          <option name="ENV_VARIABLES" />
+          <option name="PASS_PARENT_ENVS" value="true" />
+          <option name="TEST_SEARCH_SCOPE">
+            <value defaultName="singleModule" />
+          </option>
+          <option name="USE_DEFAULT_REPORTERS" value="false" />
+          <option name="PROPERTIES_FILE" />
+          <envs />
+          <properties />
+          <listeners />
+          <method />
+        </configuration>
+      </component>
+      <component name="ScalaCompilerConfiguration">
+        <option name="higherKinds" value="true" />
+        <option name="deprecationWarnings" value="true" />
+        <option name="uncheckedWarnings" value="true" />
+        <option name="featureWarnings" value="true" />
+        <option name="explainTypeErrors" value="true" />
+        <option name="continuations" value="true" />
+      </component>
+      <component name="SshConsoleOptionsProvider">
+        <option name="myEncoding" value="UTF-8" />
+        <option name="myConnectionType" value="NONE" />
+      </component>
+      <component name="SvnConfiguration">
+        <configuration>C:\Users\emily\AppData\Roaming\Subversion</configuration>
+      </component>
+      <component name="TerminalProjectOptionsProvider">
+        <option name="myStartingDirectory" value="C:\Users\emily\github_repos" />
+      </component>
+      <component name="TypeScriptCompiler">
+        <option name="isCompilerEnabled" value="true" />
+        <option name="typeScriptServiceDirectory" value="C:\Users\emily\AppData\Roaming\npm\node_modules\typescript\lib" />
+        <option name="useConfig" value="true" />
+        <option name="versionType" value="SERVICE_DIRECTORY" />
+      </component>
+      <component name="ValidationConfiguration">
+        <option name="VALIDATE_ON_BUILD" value="true" />
+        <option name="VALIDATORS">
+          <map>
+            <entry key="EJB Validator" value="true" />
+            <entry key="Faces Validator" value="false" />
+            <entry key="Hibernate Validator" value="true" />
+            <entry key="JPA Validator" value="true" />
+            <entry key="Jasper Validator" value="false" />
+            <entry key="Spring Model Validator" value="true" />
+            <entry key="Web Xml Validator" value="true" />
+          </map>
+        </option>
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="VcsManagerConfiguration">
+        <confirmMoveToFailedCommit value="0" />
+        <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="Copyright.UI">
+            <settings>
+              <last-edited>Personal Copyright Without Warranty</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.24199744" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>Zulu 1.8.0.144 x64</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.25637755" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+      <component name="uidesigner-configuration">
+        <option name="INSTRUMENT_CLASSES" value="false" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

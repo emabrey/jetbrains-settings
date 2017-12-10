@@ -1,0 +1,9 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="IDE Usage Statistics" displayType="NONE" shouldLog="false" />
+    <notification groupId="Indexing" />
+    <notification groupId="System Health" displayType="STICKY_BALLOON" />
+    <notification groupId="System Health (minor)" />
+    <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" />
+  </component>
+</application>
