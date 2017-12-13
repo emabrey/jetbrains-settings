@@ -1,4 +1,4 @@
-<code_scheme name="Emily">
+<code_scheme name="Emily" version="173">
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="8" />
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="8" />
   <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
@@ -10,9 +10,15 @@
   <option name="JD_KEEP_EMPTY_RETURN" value="false" />
   <option name="HTML_ENFORCE_QUOTES" value="true" />
   <option name="WRAP_COMMENTS" value="true" />
+  <CMakeCodeStyleSettings>
+    <option name="FORCE_COMMANDS_CASE" value="0" />
+  </CMakeCodeStyleSettings>
   <GroovyCodeStyleSettings>
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="6" />
   </GroovyCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ENFORCE_QUOTES" value="true" />
+  </HTMLCodeStyleSettings>
   <HoconCodeStyleSettings>
     <option name="OBJECTS_WRAP" value="5" />
     <option name="OBJECTS_ALIGN_WHEN_MULTILINE" value="true" />
@@ -40,6 +46,55 @@
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="2147483647" />
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
   </JetCodeStyleSettings>
+  <Objective-C>
+    <option name="INDENT_NAMESPACE_MEMBERS" value="0" />
+    <option name="INDENT_CLASS_MEMBERS" value="8" />
+    <option name="INDENT_VISIBILITY_KEYWORDS" value="4" />
+    <option name="INDENT_PREPROCESSOR_DIRECTIVE" value="4" />
+    <option name="INDENT_DIRECTIVE_AS_CODE" value="true" />
+    <option name="KEEP_STRUCTURES_IN_ONE_LINE" value="true" />
+    <option name="KEEP_CASE_EXPRESSIONS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_NESTED_NAMESPACES_IN_ONE_LINE" value="true" />
+    <option name="FUNCTION_NON_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
+    <option name="FUNCTION_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
+    <option name="FUNCTION_PARAMETERS_WRAP" value="5" />
+    <option name="FUNCTION_PARAMETERS_ALIGN_MULTILINE_PARS" value="true" />
+    <option name="FUNCTION_CALL_ARGUMENTS_WRAP" value="5" />
+    <option name="TEMPLATE_PARAMETERS_WRAP" value="5" />
+    <option name="TEMPLATE_PARAMETERS_ALIGN_MULTILINE" value="true" />
+    <option name="TEMPLATE_PARAMETERS_NEW_LINE_AFTER_LT" value="true" />
+    <option name="TEMPLATE_PARAMETERS_NEW_LINE_BEFORE_GT" value="true" />
+    <option name="TEMPLATE_CALL_ARGUMENTS_WRAP" value="5" />
+    <option name="TEMPLATE_CALL_ARGUMENTS_ALIGN_MULTILINE" value="true" />
+    <option name="TEMPLATE_CALL_ARGUMENTS_NEW_LINE_BEFORE_GT" value="true" />
+    <option name="TEMPLATE_CALL_ARGUMENTS_ALIGN_MULTILINE_PARS" value="true" />
+    <option name="CLASS_CONSTRUCTOR_INIT_LIST_WRAP" value="5" />
+    <option name="SUPERCLASS_LIST_BEFORE_COLON" value="0" />
+    <option name="SUPERCLASS_LIST_AFTER_COLON" value="2" />
+    <option name="SPACE_BEFORE_TEMPLATE_DECLARATION_LT" value="true" />
+    <option name="SPACE_WITHIN_EMPTY_TEMPLATE_DECLARATION_LTGT" value="true" />
+    <option name="SPACE_WITHIN_EMPTY_TEMPLATE_CALL_LTGT" value="true" />
+    <option name="SPACE_WITHIN_TEMPLATE_DOUBLE_GT" value="false" />
+    <option name="ALIGN_INIT_LIST_IN_COLUMNS" value="false" />
+    <option name="SPACE_BEFORE_PROTOCOLS_BRACKETS" value="false" />
+    <option name="DISCHARGED_SHORT_TERNARY_OPERATOR" value="true" />
+    <option name="KEEP_BLANK_LINES_BEFORE_END" value="1" />
+  </Objective-C>
+  <Objective-C-extensions>
+    <file />
+    <class>
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Property" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Synthesize" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InitMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="StaticMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InstanceMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
+    </class>
+    <extensions>
+      <pair source="cpp" header="hpp" fileNamingConvention="PASCAL_CASE" />
+      <pair source="c" header="h" fileNamingConvention="PASCAL_CASE" />
+    </extensions>
+  </Objective-C-extensions>
   <Properties>
     <option name="KEEP_BLANK_LINES" value="true" />
     <option name="KEY_VALUE_DELIMITER_CODE" value="1" />
@@ -52,6 +107,10 @@
     <option name="XML_KEEP_WHITE_SPACES_INSIDE_CDATA" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="CMake">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+  </codeStyleSettings>
   <codeStyleSettings language="Groovy">
     <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
@@ -159,6 +218,21 @@
   <codeStyleSettings language="JSON">
     <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="WRAP_LONG_LINES" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+    <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="false" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
+    <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
+    <option name="FOR_STATEMENT_WRAP" value="1" />
+    <option name="ASSIGNMENT_WRAP" value="1" />
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="LINE_COMMENT_ADD_SPACE" value="false" />
